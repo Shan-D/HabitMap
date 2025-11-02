@@ -1,0 +1,98 @@
+{
+  "timestamp": "2025-11-02T15:07:42.891164",
+  "total_tests": 18,
+  "passed_tests": 18,
+  "success_rate": 100.0,
+  "results": [
+    {
+      "test": "User Registration",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "User Login",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Create Habit",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Get Habits",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Update Habit",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Delete Habit",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Create Habit for Logging",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Create Habit Log",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Get Habit Logs",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Create Mood Log",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Get Mood Logs",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Delete Mood Log",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Get Analytics Summary",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Analytics Summary Structure",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Get AI Insights",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "AI Insights Response Structure",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Get Settings",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Update Settings",
+      "success": true,
+      "details": ""
+    }
+  ]
+}
