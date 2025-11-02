@@ -1,34 +1,79 @@
-.App-logo {
-    height: 40vmin;
-    pointer-events: none;
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-        animation: App-logo-spin infinite 20s linear;
-    }
+:root {
+  --sage: #a8b5a1;
+  --lavender: #c8b8db;
+  --cream: #f5f1e8;
+  --soft-blue: #b8d4e8;
+  --soft-pink: #e8c1d4;
+  --text-dark: #2d3436;
+  --text-light: #636e72;
+  --bg-light: #fefefe;
+  --bg-card: #ffffff;
+  --shadow: rgba(0, 0, 0, 0.08);
+  --shadow-hover: rgba(0, 0, 0, 0.12);
 }
 
-.App-header {
-    background-color: #0f0f10;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
+.dark {
+  --cream: #1a1a1a;
+  --bg-light: #0f0f10;
+  --bg-card: #1c1c1e;
+  --text-dark: #f5f5f5;
+  --text-light: #b8b8b8;
+  --shadow: rgba(255, 255, 255, 0.05);
+  --shadow-hover: rgba(255, 255, 255, 0.08);
 }
 
-.App-link {
-    color: #61dafb;
+body {
+  font-family: 'Inter', sans-serif;
+  background: var(--cream);
+  color: var(--text-dark);
+  overflow-x: hidden;
 }
 
-@keyframes App-logo-spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+}
+
+.App {
+  min-height: 100vh;
+  background: linear-gradient(135deg, var(--cream) 0%, var(--bg-light) 100%);
+}
+
+/* Smooth transitions */
+button, input, select, .card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+}
+
+.card:hover {
+  box-shadow: 0 8px 24px var(--shadow-hover);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--cream);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--sage);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--lavender);
 }
